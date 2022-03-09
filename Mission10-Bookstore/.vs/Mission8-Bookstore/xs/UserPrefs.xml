@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{5CC8D51B-3BDF-4E42-9196-B8B05BA13C8D}|Mission8_Bookstore">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/_ViewImports.cshtml">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="46" Column="17" />
+      <File FileName="Models/ViewModels/BooksViewModel.cs" />
+      <File FileName="Models/EFBookstoreRepository.cs" />
+      <File FileName="Models/iBookstoreRepository.cs" />
+      <File FileName="Models/Cart.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Models/Books.cs" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Infrastructure/PaginationTagHelper.cs" />
+      <File FileName="Models/BookstoreContext.cs" />
+      <File FileName="Infrastructure/UrlExtensions.cs" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission8-Bookstore" expanded="True">
+            <Node name="Mission8-Bookstore" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Shop.cshtml" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
+                  <Node name="jquery-validation" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Mission9-Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
