@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Mission9_Bookstore.Models;
+using Mission10_Bookstore.Models;
 
 namespace Mission7_Bookstore.Migrations
 {
@@ -18,7 +18,7 @@ namespace Mission7_Bookstore.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.22");
 
-            modelBuilder.Entity("Mission9_Bookstore.Models.Book", b =>
+            modelBuilder.Entity("Mission10_Bookstore.Models.Book", b =>
                 {
                     b.Property<int>("BookId")
                         .ValueGeneratedOnAdd()
@@ -59,7 +59,7 @@ namespace Mission7_Bookstore.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("Mission9_Bookstore.Models.CartLineItem", b =>
+            modelBuilder.Entity("Mission10_Bookstore.Models.CartLineItem", b =>
                 {
                     b.Property<int>("LineID")
                         .ValueGeneratedOnAdd()
@@ -83,7 +83,7 @@ namespace Mission7_Bookstore.Migrations
                     b.ToTable("CartLineItem");
                 });
 
-            modelBuilder.Entity("Mission9_Bookstore.Models.Purchase", b =>
+            modelBuilder.Entity("Mission10_Bookstore.Models.Purchase", b =>
                 {
                     b.Property<int>("PurchaseId")
                         .ValueGeneratedOnAdd()
@@ -124,13 +124,13 @@ namespace Mission7_Bookstore.Migrations
                     b.ToTable("Purchases");
                 });
 
-            modelBuilder.Entity("Mission9_Bookstore.Models.CartLineItem", b =>
+            modelBuilder.Entity("Mission10_Bookstore.Models.CartLineItem", b =>
                 {
-                    b.HasOne("Mission9_Bookstore.Models.Book", "Book")
+                    b.HasOne("Mission10_Bookstore.Models.Book", "Book")
                         .WithMany()
                         .HasForeignKey("BookId");
 
-                    b.HasOne("Mission9_Bookstore.Models.Purchase", null)
+                    b.HasOne("Mission10_Bookstore.Models.Purchase", null)
                         .WithMany("Lines")
                         .HasForeignKey("PurchaseId");
                 });

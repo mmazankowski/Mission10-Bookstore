@@ -10,9 +10,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Mission9_Bookstore.Models;
+using Mission10_Bookstore.Models;
 
-namespace Mission9_Bookstore
+namespace Mission10_Bookstore
 {
     public class Startup
     {
@@ -45,7 +45,9 @@ namespace Mission9_Bookstore
 
             services.AddScoped<Cart>(x => SessionCart.GetCart(x));
 
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); 
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddServerSideBlazor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -87,10 +89,13 @@ namespace Mission9_Bookstore
                     pattern: "{category}",
                     defaults: new { Controller = "Home", action = "Index", pageNum = 1 });
 
-
                 endpoints.MapDefaultControllerRoute();
 
-                endpoints.MapRazorPages(); 
+                endpoints.MapRazorPages();
+
+                endpoints.MapBlazorHub();
+
+                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index"); 
             });
         }
     }

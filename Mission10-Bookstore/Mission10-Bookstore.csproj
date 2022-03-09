@@ -21,6 +21,7 @@
     <None Remove="Views\Shared\Components\CartSummary\" />
     <None Remove="Bower" />
     <None Remove="Font.Awesome" />
+    <None Remove="Pages\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.22" />
@@ -45,5 +46,6 @@
     <Folder Include="Pages\" />
     <Folder Include="Views\Purchase\" />
     <Folder Include="Views\Shared\Components\CartSummary\" />
+    <Folder Include="Pages\Admin\" />
   </ItemGroup>
 </Project>
