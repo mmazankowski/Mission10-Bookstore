@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Mission10_Bookstore.Models;
 
-namespace Mission7_Bookstore.Migrations
+namespace Mission10_Bookstore.Migrations
 {
     [DbContext(typeof(BookstoreContext))]
     [Migration("20220303011150_AddPurchasesTable")]

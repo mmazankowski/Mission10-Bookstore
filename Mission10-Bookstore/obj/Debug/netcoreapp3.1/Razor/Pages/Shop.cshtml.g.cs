@@ -199,9 +199,9 @@ WriteAttributeValue("", 1329, Model.ReturnUrl, 1329, 16, false);
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Mission10_Bookstore.Pages.ShopModel> Html { get; private set; }
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<Mission10_Bookstore.Pages.ShopModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<Mission10_Bookstore.Pages.ShopModel>)PageContext?.ViewData;
-        public Mission10_Bookstore.Pages.ShopModel Model => ViewData.Model;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<Mission9_Bookstore.Pages.ShopModel> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<Mission9_Bookstore.Pages.ShopModel> ViewData => (global::Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary<Mission9_Bookstore.Pages.ShopModel>)PageContext?.ViewData;
+        public Mission9_Bookstore.Pages.ShopModel Model => ViewData.Model;
     }
 }
 #pragma warning restore 1591

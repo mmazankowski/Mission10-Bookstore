@@ -1,25 +1,29 @@
 ﻿<Properties StartupConfiguration="{5CC8D51B-3BDF-4E42-9196-B8B05BA13C8D}|Mission8_Bookstore">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Admin/Index.cshtml.cs">
     <Files>
-      <File FileName="Pages/Admin/Books.razor" Line="2" Column="1" />
-      <File FileName="Pages/Admin/Purchases.razor" Line="2" Column="15" />
-      <File FileName="Startup.cs" Line="91" Column="1" />
-      <File FileName="Pages/Admin/Index.cshtml" Line="23" Column="8" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="7" Column="5" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Pages/Admin/Routed.razor" Line="6" Column="1" />
+      <File FileName="Pages/Admin/AdminLayout.razor" Line="18" Column="1" />
+      <File FileName="Pages/Admin/Index.cshtml" Line="20" Column="57" />
+      <File FileName="Models/Purchase.cs" Line="43" Column="1" />
+      <File FileName="Pages/Admin/_Imports.razor" Line="1" Column="1" />
+      <File FileName="Pages/Admin/Index.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission10-Bookstore" expanded="True">
             <Node name="Mission10-Bookstore" expanded="True">
+              <Node name="Migrations" expanded="True">
+                <Node name="20220303011150_AddPurchasesTable.cs" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True">
-                  <Node name="Index.cshtml" expanded="True" selected="True" />
+                  <Node name="Index.cshtml" expanded="True">
+                    <Node name="Index.cshtml.cs" selected="True" />
+                  </Node>
                 </Node>
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

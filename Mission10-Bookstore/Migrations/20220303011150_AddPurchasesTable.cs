@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Mission7_Bookstore.Migrations
+namespace Mission10_Bookstore.Migrations
 {
     public partial class AddPurchasesTable : Migration
     {

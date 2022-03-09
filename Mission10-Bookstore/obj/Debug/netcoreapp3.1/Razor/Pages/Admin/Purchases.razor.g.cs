@@ -8,7 +8,48 @@ namespace Mission7_Bookstore.Pages.Admin
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
+#nullable restore
+#line 1 "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Pages/Admin/_Imports.razor"
+using Microsoft.AspNetCore.Components;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Pages/Admin/_Imports.razor"
+using Microsoft.AspNetCore.Components.Forms;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Pages/Admin/_Imports.razor"
+using Microsoft.AspNetCore.Components.Routing;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Pages/Admin/_Imports.razor"
+using Microsoft.AspNetCore.Components.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Pages/Admin/_Imports.razor"
+using Microsoft.EntityFrameworkCore;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Pages/Admin/_Imports.razor"
+using Mission10_Bookstore.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/admin/purchases")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
     public partial class Purchases : Microsoft.AspNetCore.Components.ComponentBase
