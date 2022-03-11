@@ -3404,14 +3404,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Mission10-Bookstore.csproj",
-      "projectName": "Mission10-Bookstore",
-      "projectPath": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Mission10-Bookstore.csproj",
+      "projectUniqueName": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Mission10_Bookstore.csproj",
+      "projectName": "Mission10_Bookstore",
+      "projectPath": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Mission10_Bookstore.csproj",
       "packagesPath": "/Users/matthewmazankowski/.nuget/packages/",
       "outputPath": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/matthewmazankowski/.nuget/NuGet/NuGet.Config"
+        "/Users/matthewmazankowski/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

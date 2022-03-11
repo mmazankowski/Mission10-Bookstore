@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PoZCtaljkVdI1quzuWEFDody/i0ISEBSa0HuFt7aN8jHb52Oc9AGfX4GQE42/10ARPlPOrWeKkeBs9F2sAyvjA==",
+  "dgSpecHash": "qH2W4KaAgtbMrWlf6KvyeqafHdDuHfQo9Nofib4pGeBoSPugRW0p9WKNkDgRpVHtVpasny2vm5ARnla/iXVkzA==",
   "success": true,
-  "projectFilePath": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Mission10-Bookstore.csproj",
+  "projectFilePath": "/Users/matthewmazankowski/Desktop/413-Mission/Mission10-Bookstore/Mission10-Bookstore/Mission10_Bookstore.csproj",
   "expectedPackageFiles": [
     "/Users/matthewmazankowski/.nuget/packages/bower/1.3.11/bower.1.3.11.nupkg.sha512",
     "/Users/matthewmazankowski/.nuget/packages/font.awesome/4.6.3/font.awesome.4.6.3.nupkg.sha512",

@@ -54,7 +54,6 @@ using Mission10_Bookstore.Models;
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/admin/purchases")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin")]
     public partial class Purchases : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

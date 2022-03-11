@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="{5CC8D51B-3BDF-4E42-9196-B8B05BA13C8D}|Mission8_Bookstore">
   <MonoDevelop.Ide.ItemProperties.Mission10__Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/_ViewImports.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
       <File FileName="Startup.cs" Line="1" Column="1" />
       <File FileName="Pages/Admin/Routed.razor" Line="5" Column="13" />
       <File FileName="Pages/Admin/AdminLayout.razor" Line="18" Column="1" />
-      <File FileName="Pages/Admin/Index.cshtml" Line="3" Column="13" />
+      <File FileName="Pages/Admin/Index.cshtml" Line="19" Column="39" />
       <File FileName="Models/Purchase.cs" Line="43" Column="1" />
       <File FileName="Pages/Admin/_Imports.razor" Line="1" Column="1" />
-      <File FileName="Pages/Admin/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Pages/Admin/Index.cshtml.cs" Line="8" Column="21" />
       <File FileName="Pages/Admin/Purchases.razor" Line="1" Column="25" />
-      <File FileName="Pages/_ViewImports.cshtml" Line="3" Column="18" />
+      <File FileName="Pages/_ViewImports.cshtml" Line="1" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Mission10-Bookstore" expanded="True">
-            <Node name="Mission10-Bookstore" expanded="True">
+          <Node name="Mission10_Bookstore" expanded="True" selected="True">
+            <Node name="Mission10_Bookstore" expanded="True">
               <Node name="Migrations" expanded="True">
                 <Node name="20220303011150_AddPurchasesTable.cs" expanded="True" />
               </Node>
@@ -27,7 +27,6 @@
                 <Node name="Admin" expanded="True">
                   <Node name="Index.cshtml" expanded="True" />
                 </Node>
-                <Node name="_ViewImports.cshtml" selected="True" />
               </Node>
             </Node>
           </Node>
